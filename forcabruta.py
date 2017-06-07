@@ -49,8 +49,8 @@ def TestaSenha():
     s.starttls()
 
     user = raw_input("\nDigite o email: ")
-    #lista = raw_input("informe o caminho da lista: ")
-    lista = "C:\Users\Programacao\Desktop\lista.txt"
+    lista = raw_input("informe o caminho da lista: ")
+    
     lista = open(lista, "r")
 
     for senha in lista:
